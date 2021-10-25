@@ -85,5 +85,4 @@ Rewrite your repository implementations from Assignment 4 to use `async` and `aw
 
 ## SE
 
-### Exercise 1
-Research the following concept and provide a definition for each of them: inheritance, polymorphism, encapsulation.
+none this week
