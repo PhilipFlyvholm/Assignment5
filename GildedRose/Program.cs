@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
-namespace GildedRose.Console
+namespace GildedRose
 {
     public class Program
     {
@@ -40,10 +41,8 @@ namespace GildedRose.Console
 				new Item { Name = "Conjured Mana Cake", SellIn = 3, Quality = 6 }
                                           }
 
-                          };
-
             };
-for (var i = 0; i < 31; i++)
+            for (var i = 0; i < 31; i++)
             {
                 Console.WriteLine("-------- day " + i + " --------");
                 Console.WriteLine("name, sellIn, quality");
@@ -56,6 +55,7 @@ for (var i = 0; i < 31; i++)
             }
 
         }
+
 
         public void UpdateQuality()
         {
